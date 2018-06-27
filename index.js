@@ -21,6 +21,6 @@ function currentLine(line) {
   const lineOrder = []
   for (let i = 0, l = line.length; i < l; i++) {
     lineOrder.push(`${i+1}. ${line[i]}.`)
-  
+ 
   }
 }
