@@ -20,6 +20,6 @@ function currentLine(line) {
   
   const lineOrder = []
   for (let i = 0, l = line.length; i < l; i++) {
-    lineOrder.push(`The line is currently: ${i+1}. ${line[i]}.`)
+    lineOrder.push(`The line is currently: ${i + 1}. ${line[i]}.`)
   }
 }
